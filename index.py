@@ -21,9 +21,9 @@ if gun == "pazartesi" or gun == "salı" or gun == "çarşamba" or gun == "perşe
                 print("sokağa çıkabilirsiniz")
         else:
             if saat >= 13.00 and saat <= 16.00:
-                print("sokağa çıkamazsınız")
-            else:
                 print("sokağa çıkabilirsiniz")
+            else:
+                print("sokağa çıkamazsınız")
     else:
         print("sokağa çıkamazsınız")
 
